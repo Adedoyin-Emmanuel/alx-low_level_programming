@@ -8,11 +8,11 @@
 
 int main(void)
 {
-	char aplha;
+	char alpha;
 
 	for(alpha = "a"; alpha <= "z"; alpha++)
 	{
-		printf("%c\n", alpha);
+		putchar("%c\n", alpha);
 	}
 
 	return (0);

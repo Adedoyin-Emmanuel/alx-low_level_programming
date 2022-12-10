@@ -6,17 +6,22 @@
  *Return: Always 0 (success)
  */
 
-int main(void) {
-  for (int i = 0; i < 10; i++) {
-    putchar('0' + i);
-  }
+int main(void) 
+{
+	int i, j;
+	
+  	for (i = 0; i < 10; i++) 
+	{
+    		putchar('0' + i);
+ 	}
 
-  for (int i = 0; i < 6; i++) {
-    putchar('a' + i);
-  }
+  	for (j = 0; j < 6; j++)
+	{
+   		 putchar('a' + j);
+        }
 
-  putchar('\n');
+ 	 putchar('\n');
 
-  return 0;
+ 	 return 0;
 }
 

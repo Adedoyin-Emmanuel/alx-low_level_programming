@@ -14,14 +14,8 @@ int main(void)
 	{
 		for (j = i + 1; j <= 99; j++)
 		{
-			if (i < 10)
-			{
-				putchar('0');
-			}
 			putchar('0' + (i / 10));
 			putchar('0' + (i % 10));
-			if (j < 10)
-				putchar('0');
 			putchar('0' + (j / 10));
 			putchar('0' + (j % 10));
 
@@ -29,5 +23,6 @@ int main(void)
 			putchar(' ');
 		}
 	}
+	putchar('\n');
 	return (0);
 }

@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- *main - prints all the letters of the alphabet
+ *print_alphabet - prints all the letters of the alphabet
  *
- *Return: Always (0) Success
+ *Return: void
  */
 
 void print_alphabet(void)

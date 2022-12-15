@@ -1,11 +1,12 @@
 #include "main.h"
 
 /**
- *_isupper - checks for a uppercase letter
- *@c is the argument for the _isupper function
+ * _isupper - checks for alphabetic character
+ * @c: the parameter of the function
  *
- *Return: 1 (success) 
+ * Return: 1 (Success)
  */
+
 int _isupper(int c)
 {
 	/* check if the argument is upper */

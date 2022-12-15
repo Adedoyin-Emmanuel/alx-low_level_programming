@@ -8,7 +8,7 @@
  */
 int _isupper(int c)
 {
-	/* check if the argumenr is upper */
+	/* check if the argument is upper */
 	if (c >= 'A' && c <= 'Z')
 		return (1);
 	else

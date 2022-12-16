@@ -11,7 +11,6 @@ void print_most_numbers(void)
 
 	for (num = 0; num < 10; num++)
 	{
-		/*check if the num reaches 2 or 4*/
 		if (num == 2 || num == 4)
 			continue;
 		else 

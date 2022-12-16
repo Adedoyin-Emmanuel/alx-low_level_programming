@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_most_numbers - Prints the numbers from 0 to 9 
- * except from 2 and 4
+ * print_most_numbers - Prints the numbers from 0-9 
+ * except for 2 and 4
  */
 
 void print_most_numbers(void)
@@ -11,12 +11,9 @@ void print_most_numbers(void)
 
 	for (num = 0; num <= 9; num++)
 	{
-		if (num == 2 || num == 4)
-		{
-			continue;
-		}else{
+		if (num != 2 && num != 4)
 			_putchar(num + '0');
-		}
+
 	}
 	_putchar('\n');
 }

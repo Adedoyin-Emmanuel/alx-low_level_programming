@@ -2,7 +2,8 @@
 
 /**
  * print_line - Draws a straight line in the terminal
- * @n: is the number of times the character _ should be printed
+ * using _
+ * @n: The number of times the character _ should be printed
  */
 
 void print_line(int n)

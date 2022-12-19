@@ -3,7 +3,6 @@
 /**
  *_streln - returns the length of a string
  *@s: is the parameter
- *
  *Return: the string length
  */
 

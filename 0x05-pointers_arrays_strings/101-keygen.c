@@ -7,7 +7,6 @@
 
 int keygen(int password)
 {
-	int index;
-
+	printf(password);
 	printf("\n");
 }

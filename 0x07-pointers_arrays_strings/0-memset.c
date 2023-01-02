@@ -1,5 +1,5 @@
 #include "main.h"
-#include <unistd.h>
+#include <string.h>
 /**
  *_memset - a function that fills memory with a constant byte
  *@s: the pointer pointing to n
@@ -11,8 +11,8 @@
 
 char *_memset(char *s, char b, unsigned int n)
 {
-	char **ptr_s = s;
+	char *ptr_s = &*s;
 	
-	swab (s, b, n);
-	return (prt_s);
+	memset(s, b, n);
+	return ptr_s;
 }

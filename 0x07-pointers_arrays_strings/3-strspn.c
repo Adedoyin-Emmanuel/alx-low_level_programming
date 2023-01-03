@@ -2,9 +2,9 @@
 #include <string.h>
 
 /**
- *_strspn - get the length of a prefix substring
+ *_strspn -a function that gets the length of a prefix substring
  *@s: the string segment
- *@accept: the bytes parameter from which the function returns 
+ *@accept: the bytes parameter from which the function returns
  */
 
 unsigned int _strspn(char *s, char *accept)

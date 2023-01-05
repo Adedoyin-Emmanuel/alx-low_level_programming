@@ -6,7 +6,7 @@
  *Return: the factorial of n the parameter
  */
 
-int factorial (int n)
+int factorial(int n)
 {
 	/*check if the parameter is 1 or less than 1*/
 	if (n < 0)

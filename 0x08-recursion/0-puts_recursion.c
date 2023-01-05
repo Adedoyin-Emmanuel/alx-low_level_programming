@@ -6,7 +6,11 @@
  */
 
 void _puts_recursion(char *s)
-{
-	_putchar("%s", s);
+{	
+	/*Create the base case */
+	if (*s == '\0')
+		return;
+	_putchar(*s);
+	_puts_recursion(*s + 1);
 	
 }

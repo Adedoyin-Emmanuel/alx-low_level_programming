@@ -3,7 +3,8 @@
 
 
 def num_water_neighbors(grid, i, j):
-    """This function returns the number of water neighbors a cell has in a grid."""
+    """This function returns the number of water
+    neighbors a cell has in a grid."""
 
     number = 0
 
